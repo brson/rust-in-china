@@ -3,7 +3,7 @@
 A presentation on Rust and blockchain tech, hastily created. Sorry y'all.
 
 Slides can be viewed [right here][rh1]. Written in [reveal.js], but lightly
-tested. WFM, yo.
+tested. WFM in Firefox, yo.
 
 The corresponding blog post is not written, but there is
 an early draft, including lots and lots of links [right here][rh2].
