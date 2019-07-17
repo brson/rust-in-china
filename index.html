@@ -25,13 +25,13 @@
 	  document.getElementsByTagName( 'head' )[0].appendChild( link );
 	</script>
   </head>
-  <body>
+  <body id="rifb">
 	<div class="reveal">
 	  <div class="slides">
 
 		<section id="s-chain">
 		  <div class="left-box">
-			<h1>Rust is for Block&#8203;chain</h1>
+			<h1>Rust<br>is for<br>Block<br>chain</h1>
 			<div></div>
 		  </div>
 
@@ -102,9 +102,13 @@
 		  <h1>How you can help</h1>
 		</section>
 
-		<section>
-		  <h1>Rust is for blockchain</h1>
+		<section id="s-chain-2">
+		  <div class="left-box">
+			<h1>Rust<br>is for<br>Block<br>chain</h1>
+			<div></div>
+		  </div>
 		</section>
+
 	  </div>
 	</div>
 
@@ -115,6 +119,11 @@
 	  // - https://github.com/hakimel/reveal.js#configuration
 	  // - https://github.com/hakimel/reveal.js#dependencies
 	  Reveal.initialize({
+	  margin: 0,
+	  /*width: "100%",
+	  height: "100%",*/
+	  minScale: 0.1,
+	  maxScale: 20,
 	  dependencies: [
 	  { src: 'plugin/markdown/marked.js' },
 	  { src: 'plugin/markdown/markdown.js' },

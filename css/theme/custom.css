@@ -11,6 +11,7 @@ Colors:
 https://www.colourlovers.com/palette/178799/[]_Vintage_Galaxy
 */
 * {
+    --void-bg-color: black;
 	--main-bg-color: #77445E;   /* purple */
 	--alt-bg-color-1: #52433F;  /* brown */
 	--alt-bg-color-2: #59AC92;  /* teal */

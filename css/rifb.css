@@ -1,15 +1,36 @@
+html {
+	font-size: 14px;
+}
+
+#rifb * {
+	background-color: var(--void-bg-color);
+}
+
+#rifb h1 {
+	font-size: 7rem;
+}
+
+#rifb section {
+	padding: 0;
+	/*height: 100vh;*/
+}
+
 .left-box {
 	display: flex;
 	flex-wrap: nowrap;
+	/*height: 100%;*/
 }
 
-.left-box > :nth-child(1) {
+#rifb .left-box > :nth-child(1) {
 	/*background-color: blue;*/
 	/*border: 1px solid blue;*/
 	background-color: var(--main-bg-color);
-	flex-basis: 20%;
+	flex-basis: auto;
 	flex-shrink: 0;
+	flex-grow: 0;
 	padding: 3rem;
+	padding-left: 6rem;
+	padding-right: 6rem;
 	margin: 0;
 	height: 100%;
 }
@@ -18,10 +39,17 @@
 	/*background-color: red;*/
 	/*border: 1px solid red;*/
 	flex-basis: 100%;
-	flex-grow: 1;
+	flex-shrink: 1;
+	flex-grow: 0;
 	margin: 0;
 }
 
 #s-chain .left-box > :nth-child(2) {
 	background-image: url("https://farm5.staticflickr.com/4122/4950803385_f45b0d5e46_b.jpg");
+	background-size: cover;
+}
+
+#s-chain-2 .left-box > :nth-child(2) {
+	background-image: url("https://farm5.staticflickr.com/4122/4950803385_f45b0d5e46_b.jpg");
+	background-size: cover contain;
 }
