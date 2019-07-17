@@ -1,14 +1,16 @@
 # Rust is for Blockchain
 
-A presentation on Rust and blockchain tech.
+A presentation on Rust and blockchain tech, hastily created. Sorry y'all.
 
-Built in [reveal.js].
+Slides can be viewed [right here][rh1].
 
-[reveal.js]: https://github.com/hakimel/reveal.js
+The corresponding blog post is not written, but there is
+an early draft, including lots and lots of links [right here][rh2].
 
+[rh1]: https://brson.github.io/rust-is-for-blockchain
+[rh2]: rust-is-for-blockchian.md
 
-
-## Image credits
+## Potential image credits
 
 - [chain 1](https://ccsearch.creativecommons.org/photos/c0037c67-a0b3-4bc0-972f-b3d737be6173)
 - [chain 2](https://ccsearch.creativecommons.org/photos/96645b73-c516-474b-98dc-7cdff916a15e)
