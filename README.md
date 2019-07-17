@@ -10,7 +10,7 @@ an early draft, including lots and lots of links [right here][rh2].
 
 [reveal.js]: https://github.com/hakimel/reveal.js
 [rh1]: https://brson.github.io/rust-is-for-blockchain
-[rh2]: rust-is-for-blockchian.md
+[rh2]: rust-is-for-blockchain.md
 
 ## Potential image credits
 

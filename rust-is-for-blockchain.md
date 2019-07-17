@@ -42,6 +42,13 @@ Ethereum VM), and WASM. Cryptape's VM runs RISC-V. Solana runs an eBPF VM.
 
 ## Why Rust for blockchain?
 
+TODO: Get off your ass and write this stuff.
+
+## Companies using Rust for blockchain
+
+Most of these are companies with blockchain projects, some are in the industry
+and using Rust for other purposes, some have open source Rust projects, some
+_appear_ to have or are very interested in closed source Rust projects.
 
 - [Parity](https://www.parity.io/)
   - [Parity Ethereum](https://github.com/paritytech/parity-ethereum)
@@ -139,19 +146,10 @@ Ethereum VM), and WASM. Cryptape's VM runs RISC-V. Solana runs an eBPF VM.
   - https://github.com/tendermint/kms
   - https://github.com/tendermint/signatory
 
-## Crates used by or created by blockchain projects
 
-- [rust-libp2p](https://github.com/libp2p/rust-libp2p)
-  - official Rust implementation of [libP2p](https://libp2p.io/)
-  - it has a bunch of features that make network better on the today's internet
-- [p2p](https://github.com/driftluo/p2p)
-  - framework for building custom peer-to-peer protocols
-  - alternative to libp2p2
-- [ws-rs](https://github.com/solana-labs/ws-rs)
-  - WebSockets
-- [jsonrpc](https://github.com/paritytech/jsonrpc)
-  - implements JSON-RPC 2.0
-  - created by Parity
+## Rust crates used by or created by blockchain projects
+
+### Crypto
 
 - [dalek-cryptography](https://github.com/dalek-cryptography)
   - popular elliptic curve crypto libs
@@ -168,6 +166,8 @@ Ethereum VM), and WASM. Cryptape's VM runs RISC-V. Solana runs an eBPF VM.
   - YubiKey interop
   - tendermint
 
+## VMs
+
 - [rbpf](https://github.com/solana-labs/rbpf)
   - an implementation of the eBPF VM, the Berkely packet filter
 - [ckb-vm](https://github.com/nervosnetwork/ckb-vm)
@@ -181,6 +181,22 @@ Ethereum VM), and WASM. Cryptape's VM runs RISC-V. Solana runs an eBPF VM.
 - [sputnikvm](https://github.com/ETCDEVTeam/sputnikvm)
   - EVM
 
+### Highlights
+
+- [rust-libp2p](https://github.com/libp2p/rust-libp2p)
+  - official Rust implementation of [libP2p](https://libp2p.io/)
+  - it has a bunch of features that make network better on the today's internet
+- [p2p](https://github.com/driftluo/p2p)
+  - framework for building custom peer-to-peer protocols
+  - alternative to libp2p2
+- [ws-rs](https://github.com/solana-labs/ws-rs)
+  - WebSockets
+- [jsonrpc](https://github.com/paritytech/jsonrpc)
+  - implements JSON-RPC 2.0
+  - created by Parity
+
+## And yet more
+
 - [pwbox-rs](https://github.com/exonum/pwbox-rs)
   - Modular password-based encryption for Rust
 - [hbbft](https://github.com/poanetwork/hbbft)
@@ -191,6 +207,7 @@ Ethereum VM), and WASM. Cryptape's VM runs RISC-V. Solana runs an eBPF VM.
   - Probably a dead-end
 - [unsigned-varint](https://github.com/paritytech/unsigned-varint)
 - [adblock-rust](https://github.com/brave/adblock-rust)
+
 
 ## Blockchain companies that have sponsored Rust
 
@@ -208,13 +225,15 @@ Ethereum VM), and WASM. Cryptape's VM runs RISC-V. Solana runs an eBPF VM.
 - DFINITY
 - Intraverse
 
-## TODO
+
+## Source links
 
 - https://www.reddit.com/r/rust/comments/c20aed/facebook_just_picked_rust_to_implement_their_new/erhsz9q/
 - https://news.ycombinator.com/item?id=20222349
 - https://medium.com/solana-labs/solana-at-portland-dev-meetup-72e4dc7ad32c
 
-## Conferences
+
+## Blockchain conference sponsors
 
 - Rust Camp 2015 - https://web.archive.org/web/20151230020407/http://rustcamp.com/
   - 6 sponsors
