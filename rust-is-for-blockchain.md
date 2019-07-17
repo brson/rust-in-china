@@ -1,4 +1,4 @@
-# Rust is big in blockchain
+# Rust is for blockchain
 
 Rust is a fairly popular language to build blockchain projects, for obvious
 reasons &mdash; blockchain projects need to be reliable, fast, and free of bugs.
