@@ -5,6 +5,21 @@
  *
  * By Hakim El Hattab, http://hakim.se
  */
+
+/*
+Colors:
+https://www.colourlovers.com/palette/178799/[]_Vintage_Galaxy
+*/
+* {
+	--main-bg-color: #77445E;   /* purple */
+	--alt-bg-color-1: #52433F;  /* brown */
+	--alt-bg-color-2: #59AC92;  /* teal */
+	--main-text-color: #ECECCE; /* biege */
+	--emph-text-color: #E6D181; /* yellow */
+	--sel-color: #59AC92;       /* teal */
+	--ctl-color: #59AC92;       /* teal */
+}
+
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
@@ -13,23 +28,23 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #191919;
-  background-color: #191919; }
+  background: var(--main-bg-color);
+  background-color: var(--main-bg-color); }
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 42px;
   font-weight: normal;
-  color: #fff; }
+  color: var(--main-text-color); }
 
 ::selection {
-  color: #fff;
-  background: #bee4fd;
+  color: var(--main-text-color);
+  background: var(--sel-color);
   text-shadow: none; }
 
 ::-moz-selection {
-  color: #fff;
-  background: #bee4fd;
+  color: var(--main-text-color);
+  background: var(--sel-color);
   text-shadow: none; }
 
 .reveal .slides section,
@@ -47,7 +62,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #fff;
+  color: var(--emph-text-color);
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
@@ -253,7 +268,7 @@ body {
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #42affa; }
+  color: var(--ctl-color); }
 
 /*********************************************
  * PROGRESS BAR

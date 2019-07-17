@@ -1,0 +1,20 @@
+.right-title-box {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.right-title-box > h1 {
+	/*background-color: blue;*/
+	flex-basis: 20%;
+	flex-shrink: 0;
+	padding: 1rem;
+	margin: 0;
+	height: 100%;
+}
+
+.right-title-box > div {
+	/*background-color: red;*/
+	flex-basis: 100%;
+	flex-grow: 1;
+	margin: 0;
+}
