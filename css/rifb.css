@@ -1,20 +1,27 @@
-.right-title-box {
+.left-box {
 	display: flex;
 	flex-wrap: nowrap;
 }
 
-.right-title-box > h1 {
+.left-box > :nth-child(1) {
 	/*background-color: blue;*/
+	/*border: 1px solid blue;*/
+	background-color: var(--main-bg-color);
 	flex-basis: 20%;
 	flex-shrink: 0;
-	padding: 1rem;
+	padding: 3rem;
 	margin: 0;
 	height: 100%;
 }
 
-.right-title-box > div {
+.left-box > :nth-child(2) {
 	/*background-color: red;*/
+	/*border: 1px solid red;*/
 	flex-basis: 100%;
 	flex-grow: 1;
 	margin: 0;
+}
+
+#s-chain .left-box > :nth-child(2) {
+	background-image: url("https://farm5.staticflickr.com/4122/4950803385_f45b0d5e46_b.jpg");
 }
