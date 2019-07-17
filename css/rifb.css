@@ -169,9 +169,26 @@ html {
 	max-width: 100%;
 }
 
+#s-logos {
+	/*background-color: #888;*/
+	background-image: linear-gradient(#222, #DDD);
+}
+
 #s-logos > div {
 	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 100px;
+	vertical-align: center;
 }
 
 #s-logos > div > img {
+	background-color: inherit;
+	box-shadow: none;
+	max-height: 200px;
+	max-width: 400px;
+	width: 100%;
+	height: auto;
+	margin: 1rem;
 }
