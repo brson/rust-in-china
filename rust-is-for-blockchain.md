@@ -231,7 +231,7 @@ _appear_ to have or are very interested in closed source Rust projects.
 - https://www.reddit.com/r/rust/comments/c20aed/facebook_just_picked_rust_to_implement_their_new/erhsz9q/
 - https://news.ycombinator.com/item?id=20222349
 - https://medium.com/solana-labs/solana-at-portland-dev-meetup-72e4dc7ad32c
-
+- https://rustinblockchain.org/
 
 ## Blockchain conference sponsors
 
