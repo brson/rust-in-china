@@ -226,7 +226,7 @@ _appear_ to have or are very interested in closed source Rust projects.
 - Intraverse
 
 
-## Source links
+## Unsorted source links
 
 - https://www.reddit.com/r/rust/comments/c20aed/facebook_just_picked_rust_to_implement_their_new/erhsz9q/
 - https://news.ycombinator.com/item?id=20222349
