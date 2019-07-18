@@ -8,7 +8,7 @@ tested. WFM in Firefox, yo.
 The corresponding blog post is not written, but there is
 an early draft, including lots and lots of links [right here][rh2].
 
-For up to date news on the subject see [rustinblockchain.org].
+For up to date news on the subject see [rustinblockchain.org][rib].
 
 [rib]: https://rustinblockchain.org/
 
