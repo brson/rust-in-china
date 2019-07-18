@@ -78,7 +78,6 @@ html {
 }
 
 #rifb .left-box > :nth-child(1) > :nth-child(1) {
-	background-color: var(--main-bg-color);
 	margin-top: 6rem;
 }
 
@@ -186,25 +185,10 @@ html {
 }
 
 #rifb .right-img-box > :nth-child(2) > :nth-child(1) {
-	background-color: var(--main-bg-color);
 	margin-top: 6rem;
 }
 
 .right-img-box > :nth-child(1) {
-	/*background-color: red;*/
-	/*border: 1px solid red;*/
-	flex-basis: 70%;
-	flex-shrink: 1;
-	flex-grow: 0;
-	margin: 0;
-}
-
-#rifb .right-img-box > :nth-child(1) > :nth-child(1) {
-	background-color: var(--main-bg-color);
-	margin-top: 6rem;
-}
-
-.right-img-box > :nth-child(2) {
 	/*background-color: red;*/
 	/*border: 1px solid red;*/
 	flex-basis: auto;
@@ -213,11 +197,20 @@ html {
 	margin: 0;
 }
 
-#rifb .right-img-box > img:nth-child(2) {
+#rifb .right-img-box > img:nth-child(1) {
 	margin: 0;
 	height: 100%;
 	max-height: 100%;
 	max-width: 100%;
+}
+
+
+#s-dalek img {
+	background-color: black;
+}
+
+#s-dalek .right-img-box > :nth-child(2) {
+	background-color: var(--alt-bg-color-1);
 }
 
 
