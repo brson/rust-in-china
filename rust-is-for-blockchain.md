@@ -145,6 +145,8 @@ _appear_ to have or are very interested in closed source Rust projects.
   - Using Rust for key management
   - https://github.com/tendermint/kms
   - https://github.com/tendermint/signatory
+- [Iqlusion](https://www.iqlusion.io/)
+  - https://iqlusion.blog/introducing-abscissa-rust-application-framework
 
 
 ## Rust crates used by or created by blockchain projects
