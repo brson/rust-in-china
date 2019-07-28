@@ -147,7 +147,8 @@ _appear_ to have or are very interested in closed source Rust projects.
   - https://github.com/tendermint/signatory
 - [Iqlusion](https://www.iqlusion.io/)
   - https://iqlusion.blog/introducing-abscissa-rust-application-framework
-
+- [Oasis Labs](https://www.oasislabs.com/)
+- [eian](https://eian.io/)
 
 ## Rust crates used by or created by blockchain projects
 
