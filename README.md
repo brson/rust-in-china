@@ -27,6 +27,7 @@ For up to date news on the subject see [rustinblockchain.org][rib].
 - [chain 4](https://ccsearch.creativecommons.org/photos/80e78101-2a56-4a1d-a893-a05f6801d1ce)
 - [chain 5](https://ccsearch.creativecommons.org/photos/e3d13760-2b77-4488-b9a2-da2bea651a1e)
 - [angel 1](https://ccsearch.creativecommons.org/photos/4b8564bc-b699-42d1-8a5f-13072a8db81c)
+- [clouds 1](https://search.creativecommons.org/photos/d51cdd6e-0b5f-41ae-ad49-3c9daabbaebc)
 
 ## License
 
