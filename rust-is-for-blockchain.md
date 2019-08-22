@@ -148,7 +148,12 @@ _appear_ to have or are very interested in closed source Rust projects.
 - [Iqlusion](https://www.iqlusion.io/)
   - https://iqlusion.blog/introducing-abscissa-rust-application-framework
 - [Oasis Labs](https://www.oasislabs.com/)
+  - https://github.com/oasislabs
 - [eian](https://eian.io/)
+- [Transparent Systems](https://www.transparentsystems.com/)
+- [Fluence Labs](https://fluence.network/)
+  - "main backend development language" - https://github.com/fluencelabs/tutorials
+
 
 ## Rust crates used by or created by blockchain projects
 
@@ -228,6 +233,7 @@ _appear_ to have or are very interested in closed source Rust projects.
 - DFINITY
 - Intraverse
 - Oasis Labs
+- Transparent systems
 
 
 ## Unsorted source links
@@ -236,6 +242,7 @@ _appear_ to have or are very interested in closed source Rust projects.
 - https://news.ycombinator.com/item?id=20222349
 - https://medium.com/solana-labs/solana-at-portland-dev-meetup-72e4dc7ad32c
 - https://rustinblockchain.org/
+- https://github.com/rust-in-blockchain/awesome-blockchain-rust
 
 ## Blockchain conference sponsors
 

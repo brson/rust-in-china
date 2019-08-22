@@ -8,9 +8,12 @@ tested. WFM in Firefox. For speakernotes, `npm install`, `npm start`.
 The corresponding blog post is not written, but there is
 an early draft, including lots and lots of links [right here][rh2].
 
+More resources at [awesome-blockchain-rust][abr].
+
 For up to date news on the subject see [rustinblockchain.org][rib].
 
 [rib]: https://rustinblockchain.org/
+[abr]: https://github.com/rust-in-blockchain/awesome-blockchain-rust
 
 [reveal.js]: https://github.com/hakimel/reveal.js
 [rh1]: https://brson.github.io/rust-is-for-blockchain

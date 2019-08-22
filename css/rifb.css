@@ -225,13 +225,14 @@ html {
 	justify-content: center;
 	padding: 100px;
 	vertical-align: center;
+	background: linear-gradient(#DDD, #555);
 }
 
 #s-logos > div > img {
 	background-color: inherit;
 	box-shadow: none;
 	max-height: 200px;
-	max-width: 400px;
+	max-width: 300px;
 	width: 100%;
 	height: auto;
 	margin: 1rem;
