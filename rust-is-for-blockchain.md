@@ -264,9 +264,6 @@ _appear_ to have or are very interested in closed source Rust projects.
 - RustCon Asia 2019 - https://rustcon.asia/
   - 7 sponsors
   - 2 blockchain sponsors
-- RustFest Barcelona 2019 - https://barcelona.rustfest.eu/sponsors/
-  - 1 sponsor
-  - 0 blockchain sponsors
 - RustFest Paris 2016 - https://2016.rustfest.eu/sponsoring/
   - 7 sponsors
   - 1 blockchain sponsor
@@ -282,6 +279,9 @@ _appear_ to have or are very interested in closed source Rust projects.
 - RustFest Rome 2018 - https://rome.rustfest.eu/sponsors/
   - 11 sponsors
   - 3 blockchain sponsors
+- RustFest Barcelona 2019 - https://barcelona.rustfest.eu/sponsors/
+  - 1 sponsor
+  - 0 blockchain sponsors
 - Rust Belt Rust 2016 - http://conf2016.rust-belt-rust.com/
   - 10 sponsors
   - 0 blockchain sponsors
