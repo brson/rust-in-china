@@ -227,6 +227,7 @@ _appear_ to have or are very interested in closed source Rust projects.
 - [SNZ](https://snzholding.com/)
 - DFINITY
 - Intraverse
+- Oasis Labs
 
 
 ## Unsorted source links
