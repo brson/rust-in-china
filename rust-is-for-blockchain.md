@@ -98,7 +98,10 @@ _appear_ to have or are very interested in closed source Rust projects.
   - todo rust announced?
 - [Stellar](https://www.stellar.org/)
   - [Slingshot](https://github.com/stellar/slingshot)
-- [Lighthouse](https://github.com/sigp/lighthouse) - Ethereum 2.0
+- [Lighthouse](https://github.com/sigp/lighthouse)
+  - Ethereum 2.0
+  - uses rust-libp2p
+  - lighthouse
 - [Nimiq](https://github.com/nimiq/core-rs)
 - [Celo](https://celo.org) - maybe? recruitment email mentioned rust
 - [Qtum](https://qtum.org/en)
@@ -153,6 +156,11 @@ _appear_ to have or are very interested in closed source Rust projects.
 - [Transparent Systems](https://www.transparentsystems.com/)
 - [Fluence Labs](https://fluence.network/)
   - "main backend development language" - https://github.com/fluencelabs/tutorials
+- Ripple
+  - Interledger
+- Protocol Labs (Filecoin)?
+  - funding rust-libp2p
+- [imToken](https://token.im/)
 
 
 ## Rust crates used by or created by blockchain projects
