@@ -41,7 +41,7 @@ html {
 
 /* -------------- */
 
-.left-box {
+#brson .left-box {
 	display: flex;
 	flex-wrap: nowrap;
 	/*width: 960px;
@@ -70,7 +70,7 @@ html {
 	margin-top: 6rem;
 }
 
-.left-box > :nth-child(2) {
+#brson .left-box > :nth-child(2) {
 	/*background-color: red;*/
 	/*border: 1px solid red;*/
 	flex-basis: 70%;
@@ -83,7 +83,7 @@ html {
 	margin-top: 6rem;
 }
 
-.left-box > :nth-child(2) {
+#brson .left-box > :nth-child(2) {
 	/*background-color: red;*/
 	/*border: 1px solid red;*/
 	flex-basis: 70%;
