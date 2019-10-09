@@ -161,6 +161,7 @@ _appear_ to have or are very interested in closed source Rust projects.
 - Protocol Labs (Filecoin)?
   - funding rust-libp2p
 - [imToken](https://token.im/)
+- [Findora](https://findora.org/)
 
 
 ## Rust crates used by or created by blockchain projects
