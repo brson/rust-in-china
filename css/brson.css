@@ -32,11 +32,15 @@ html {
 	height: 100%;
 }
 
-#brson section > div {
-    margin: 6rem;    
+#brson section > div > *:nth-child(1) {
+    margin-top: 6rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 
-
+#brson span {
+    display: inline-block; /* make margin work */
+}
 
 
 /* -------------- */
@@ -45,6 +49,23 @@ html {
 	display: grid;
     grid-template-columns: 50% 50%;
     height: 100%;
+    margin: 0;
+}
+
+#brson div.two-box > div {
+    margin: 0;
+}
+
+#brson div.two-box > div > *:nth-child(1) {
+    margin-top: 6rem;
+}
+
+#brson div.two-box > div > * {
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+#brson div.two-box > div > div.img-box {
     margin: 0;
 }
 
@@ -64,9 +85,49 @@ html {
     border: 2px solid green;
 }
 
-#brson div.two-box > div:nth-child(2) > img {
+#brson div.two-box > div > div.img-box {
+    height: 100%;
+    border: 2px solid yellow;
+}
+
+#brson div.two-box > div > div.img-box {
+    display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+    vertical-align: center;
+}
+
+#brson div.two-box > div > div.img-box > img {
     width: 100%;
     max-width: 100%;
     max-height: 100%;
+    height: auto;
+    margin: 0;
+}
+
+
+
+
+/* ----------- */
+
+#brson div.img-box {
+    height: 100%;
+    border: 2px solid yellow;
+}
+
+#brson div.img-box {
+    display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+    vertical-align: center;
+}
+
+#brson div.img-box > img {
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
     margin: 0;
 }
