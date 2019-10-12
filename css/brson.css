@@ -111,12 +111,12 @@ html {
 
 /* ----------- */
 
-#brson div.img-box {
+#brson div.img-slide {
     height: 100%;
     border: 2px solid yellow;
 }
 
-#brson div.img-box {
+#brson div.img-slide {
     display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -124,7 +124,7 @@ html {
     vertical-align: center;
 }
 
-#brson div.img-box > img {
+#brson div.img-slide > img {
     height: 100%;
     max-width: 100%;
     max-height: 100%;
