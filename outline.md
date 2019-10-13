@@ -3,7 +3,7 @@
 In this talk we will explain the basics of how to build a Virtual Machine, using
 the Rust programming language; discuss the specifics of how we implemented
 RISC-V in CKB-VM, and some of the problems encountered. Finally, we will use
-CKB-VM to create a live networked video game called Ferris-Fight that runs
+CKB-VM to create a live networked video game called Ferris-Fencing that runs
 arbitrary Rust code in a RISC-V sandbox.
 
 Distribute flyers on community-swag table before the talk so people can
@@ -40,7 +40,7 @@ play with the game and gossip about it.
     - link to Xiao's talk
   - Performance numbers
 - Part 2: Running Rust on CKB-VM
-  - Demo Ferris-Fight
+  - Demo Ferris-Fencing
   - RISC-V toolchains
   - The C test case
     - Show and explain
@@ -48,6 +48,6 @@ play with the game and gossip about it.
   - The Rust test case
     - Code it live
   - Runtimes
-  - Tour the Ferris-Fight runtime
-- Contributing to CKB-VM and Ferris-Fight
+  - Tour the Ferris-Fencing runtime
+- Contributing to CKB-VM and Ferris-Fencing
 - Thanks
