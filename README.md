@@ -34,6 +34,7 @@ npm start
 ## Potential image credits
 
 - TODO: fill me in
+- Ferris Fencing graphics are made by [Echo](http://echoqi.net/).
 
 
 ## License
