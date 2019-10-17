@@ -50,7 +50,7 @@ html {
 }
 
 #brson li {
-    line-height: 6rem;
+    line-height: 8rem;
 }
 
 #brson p {
@@ -98,17 +98,8 @@ html {
     grid-template-columns: 70% 30%;
 }
 
-#brson div.two-box > div:nth-child(1) {
-    border: 2px solid red;
-}
-
-#brson div.two-box > div:nth-child(2) {
-    border: 2px solid green;
-}
-
 #brson div.two-box > div > div.img-box {
     height: 100%;
-    border: 2px solid yellow;
 }
 
 #brson div.two-box > div > div.img-box {
@@ -134,7 +125,6 @@ html {
 
 #brson div.img-slide {
     height: 100%;
-    border: 2px solid yellow;
 }
 
 #brson div.img-slide {
