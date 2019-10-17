@@ -88,8 +88,24 @@
         </section>
 
         <section>
+          <div class="two-box">
+            <div>
+              <h2>Part 1:<br>Building a VM</h2>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/grid.png">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
           <div>
-            <h3>Part 1: Building a VM</h3>
+            <h3>Virtual Machines</h3>
+            <ul>
+              <li>TODO
+            </ul>
           </div>
         </section>
 
@@ -97,17 +113,25 @@
           <div>
             <h3>Why build a VM?</h3>
             <ul>
-              <li>Emulation
-              <li>Sandboxing
-              <li>Education
+              <li class="fragment fade-left">Runtime Platform
+              <li class="fragment fade-left">Hardware Emulation
+              <li class="fragment fade-left">Sandboxing
+              <li class="fragment fade-left">Education
             </ul>
           </div>
+          <aside class="notes">
+            e.g. Java JVM<br>
+            
+            e.g. QEMU<br>
+
+            e.g. WASM<br>
+          </aside>
         </section>
 
         <section>
           <div class="two-box">
             <div>
-              <h3>It's cool</h3>
+              <h3>VM's are cool</h3>
             </div>
             <div>
               <div class="img-box">
@@ -120,54 +144,46 @@
         <section>
           <div>
             <h3>CKB VM</h3>
+            <p>
+              A general-purpose RISC-V VM,<br>built for the Nervos blockchain network.
+            </p>
+            <p><a href="https://github.com/nervosnetwork/ckb-vm">https://github.com/nervosnetwork/ckb-vm</a></p>
           </div>
         </section>
 
-        <section>
-          <p>Generally requirements</p>
-        </section>
-
-        <section>
-          <p>Why we need a VM?</p>
-        </section>
-
-        <section>
-          <p>VMs are cool</p>
-        </section>
-
-        <!--CKB-VM-->
-        <section>
-          <div>
-            <h3>So that CKB-VM</h3>
-          </div>
-        </section>
-
-        <section>
-          <div>
-            <h3>What is CKB-VM?</h3>
-            <p>CKB VM is a pure software implementation of the RISC-V instruction set used as scripting VM in CKB. </p>
-          </div>
-        </section>
 
         <!--RISC-V-->
 
         <section>
-          <div class="img-box">
-            <img src="images/chain.jpg"><!-- TODO: change img to risc-v -->
-            <p>riscv.org</p>
-          </div>
+          <div class="TODO-title-over-image">
+            <div>
+              <h3>RISC-V</h3>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/grid.png" width="100px" height="100px"><!-- TODO: change img to risc-v -->
+              </div>
+            </div>
+            <div>
+              <p><a href="https://www.riscv.org">www.riscv.org</a></p>
+            </div>
         </section>
 
         <section>
           <div>
             <h3>Why RISC-V?</h3>
-            <p>RISC-V: an open & frozen ISA (Instruction Set Architecture)</p>
+            <p>An open & frozen ISA</p>
           </div>
           <aside class="notes">
+            <p>"instruction set architecture"</p>
             <p>Created by Berkeley</p>
+            <p>Lisence, free to use. No NDAs needed</p>
             <p>What does it mean? Explain open & frozen ISA, As an ISA for a real CPU, each RISC-V instruction has a fixed cost called cycles, so CKB-VM can work in a fixed, bounded memory space.</p>
-            <p>“Base” ISAs: RV321, RV32E, RV64I, RV128I.</p>
-            <p>RISC-V is a modular ISA with 32- and 64-bit variants, as well as a range of options specified in "ISA naming strings". The RISC-V backend supports both variants and all standard extensions. RV32IMAFDC, RV64IMAFDC, and the ilp32, ilp32f, ilp32d, lp64, lp64f, lp64d ABIs (the clang hard-float ABI patch will land imminently. <https://reviews.llvm.org/D60456> source: https://lists.llvm.org/pipermail/llvm-dev/2019-July/133724.html </p>
+            <p>
+              RISC-V is a modular ISA with 32- and 64-bit variants, as well as a range of options specified in "ISA naming strings". The RISC-V backend supports both variants and all standard extensions. RV32IMAFDC, RV64IMAFDC, and the ilp32, ilp32f, ilp32d, lp64, lp64f, lp64d ABIs (the clang hard-float ABI patch will land imminently.
+
+              <!-- <https://reviews.llvm.org/D60456> source: https://lists.llvm.org/pipermail/llvm-dev/2019-July/133724.html -->
+            </p>
           </aside>
         </section>
 
@@ -177,7 +193,9 @@
             <p>Flexible & extensions</p>
           </div>
           <aside class="notes">
-            <p>flexible.Simple, only a few instructions. Lisence, free to use. No NDAs needed</p>
+            <p>Simple, only a few instructions.</p>
+            <p>“Base” ISAs: RV32I, RV32E, RV64I, RV128I.</p>
+            <p>CKB: RV32IMAC (Integer + Multiplication/division + Atomic + Compressed instructions</p>
           </aside>
         </section>
 
