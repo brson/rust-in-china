@@ -164,16 +164,16 @@
 
         <section>
           <div>
-            <h3>CKB-VM</h3>
+            <!--<h3>CKB-VM</h3>-->
             <div>
               <div class="img-box">
-                <img src="images/logo-nervos-light.svg" hight="300px" width="300px">
+                <img src="images/nervos-ckb-vm.png">
+                <!--<img src="images/logo-nervos-light.svg" hight="300px" width="300px">-->
               </div>
             </div>
             <p>
               A general-purpose RISC-V VM,<br>built for the Nervos blockchain network.
             </p>
-            <p><a href="https://github.com/nervosnetwork/ckb-vm">https://github.com/nervosnetwork/ckb-vm</a></p>
           </div>
         </section>
 
@@ -182,7 +182,7 @@
 
         <section>
           <div>
-            <h3>Blockchain VM use cases</h3>
+            <h3>Blockchain VM Use Cases</h3>
             <ul>
               <li class="fragment fade-left">Crypto algorithm as a contract
               <li class="fragment fade-left">Existing blockchain VMs
@@ -191,10 +191,8 @@
             </ul>
           </div>
           <aside class="notes">
-            <p>1) Compile secp256k1 via GCC to RISC-V, then deploy it on CKB.</p>
-            <p>1) support MimbleWimble via a contract</p>
-            <p>2) Solidity is fading, what can we do with the current dapps</p>
-            <p>2) Compile an existing blockchain VM(Bitcoin Script, EVM, …) to RISC-V, then deploy it on CKB</p>
+            <p>1) Compile secp256k1 via GCC to RISC-V, then deploy it on CKB, support MimbleWimble via a contract</p>
+            <p>2) The current dapps writtern in Solidity, compile an existing blockchain VM(Bitcoin Script, EVM, …) to RISC-V, then deploy it on CKB</p>
             <p>3) Compile a JS implementation to RISC-V, then deploy to CKB. </p>
             <p>4) WASM => RISC-V transpiler. </p>
           </aside>
@@ -227,13 +225,6 @@
           </div>
           <aside class="notes">
             <p>"instruction set architecture"</p>
-            <p>Created by Berkeley</p>
-            <p>Lisence, free to use. No NDAs needed</p>
-            <p>What does it mean? Explain open & frozen ISA, As an ISA for a real CPU, each RISC-V instruction has a fixed cost called cycles, so CKB-VM can work in a fixed, bounded memory space.</p>
-            <p>
-              RISC-V is a modular ISA with 32- and 64-bit variants, as well as a range of options specified in "ISA naming strings". The RISC-V backend supports both variants and all standard extensions. RV32IMAFDC, RV64IMAFDC, and the ilp32, ilp32f, ilp32d, lp64, lp64f, lp64d ABIs (the clang hard-float ABI patch will land imminently.
-
-              <!-- <https://reviews.llvm.org/D60456> source: https://lists.llvm.org/pipermail/llvm-dev/2019-July/133724.html -->
             </p>
           </aside>
         </section>
@@ -307,6 +298,7 @@
         <section>
           <div>
             <h3>CKB-VM architecture</h3>
+            <p><a href="https://github.com/nervosnetwork/ckb-vm">https://github.com/nervosnetwork/ckb-vm</a></p>
           </div>
           <aside class="notes">
             <p>open the repo</p>
