@@ -3,3 +3,12 @@
     color: red;
 }
 
+#brson #s-intro div.img-box img {
+    margin-top: 0rem;
+    width: 100%;
+}
+
+#brson #s-intro div.img-box {
+    font-size: 80%;
+}
+
