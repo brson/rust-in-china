@@ -127,3 +127,27 @@
     /*text-shadow: 2px 2px 2px var(--text-shadow-color);*/
     text-align: left;
 }
+
+#brson #s-vms-are-cool h3 {
+    margin-top: 10rem;
+    margin-left: 5rem;
+    color: var(--ckb-color);
+    text-shadow: 2px 2px 2px var(--text-shadow-color);
+    text-align: left;
+}
+
+#brson #s-risc-v-is-cool h3 {
+    margin-top: 10rem;
+    margin-right: 5rem;
+    color: var(--ckb-color);
+    text-shadow: 2px 2px 2px var(--text-shadow-color);
+    text-align: right;
+}
+
+#brson div.ckb-title h3 {
+    color: var(--ckb-color);
+}
+
+#brson div.ferris-title h3 {
+    color: var(--title-emph-color);
+}
