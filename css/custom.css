@@ -52,6 +52,14 @@
     color: var(--title-emph-color);
 }
 
+#brson #name-aimee {
+    color: var(--ckb-color);
+}
+
+#brson #name-brian {
+    color: var(--title-emph-color);
+}
+
 #brson li {
 }
 
