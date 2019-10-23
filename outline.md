@@ -17,7 +17,7 @@ play with the game and gossip about it.
 - About us
 - Session overview
   - Building a VM in Rust that also runs Rust
-- Part 1: Building a VM
+- Part 1: VM's
   - Why build a VM?
     - Generally, CKB, VMs are cool
     - Use cases
@@ -29,25 +29,22 @@ play with the game and gossip about it.
     - RISC-V reference card visual
     - RISC-V industry adopters?
   - ?
+- Part 2: Rust on a RISC-V VM
+  - In this section
+    - What's in a VM
+    - Running Rust on a RISC-V VM
+    - Writing a runtime for CKB-VM
+  - Ferris Fencing redux
+  - Ferris Fencing demo
   - CKB-VM
-    - stage direction: start building CKB-VM
-  - VM Architecture
-    - VM + Runtime + Client code (todo where does this go?)
-  - Rust VM code
-    - TODO
-  - The limits of Rust
-    - where did CKB-VM have problems with Rust
-    - link to Xiao's talk
-  - Performance numbers
-- Part 2: Running Rust on CKB-VM
-  - Demo Ferris-Fencing
-  - RISC-V toolchains
-  - The C test case
-    - Show and explain
-    - Run it live
-  - The Rust test case
-    - Code it live
-  - Runtimes
-  - Tour the Ferris-Fencing runtime
+    - Anecdote: how I learned about CKB-VM
+    - What's cool about CKB-VM
+  - A VM-based architecture
+    - A virtual machine (CKB-VM)
+    - Client code (Ferris-bots)
+    - A runtime (The Ferris Fencing "platform")
+  - CKB's runtime interface
+  - Making Rust `main` work on CKB-VM
+  - Syscalls in CKB
 - Contributing to CKB-VM and Ferris-Fencing
 - Thanks

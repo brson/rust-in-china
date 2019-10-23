@@ -54,6 +54,11 @@
             <img src="images/ferris-fencing-battle.svg">
             <p><a href="https://www.ferrisfencing.org">www.ferrisfencing.org</a></p>
           </div>
+
+          <aside class="notes">
+            Experimental art project<br>
+            Anecdote: how I learned about CKB-VM<br>
+          </aside>
         </section>
 
         <section>
@@ -86,8 +91,7 @@
             </h2>
             <ul>
               <li>Part 1: VM's, RISC-V, and CKB-VM
-              <li>Part 2: Building a RISC-V VM
-              <li>Part 3: Running Rust on <em>that</em> VM
+              <li>Part 2: Rust on a RISC-V VM
             </ul>
           </div>
         </section>
@@ -96,7 +100,7 @@
           <div class="two-box">
             <div>
               <p>Part 1:</p>
-              <h2>VM's, RISC-V, and CKB-VM</h2>
+              <h2>VM's, RISC-V, and CKB</h2>
             </div>
             <div>
               <div class="img-box">
@@ -283,7 +287,7 @@
           <div class="two-box">
             <div>
               <p>Part 2:</p>
-              <h2>Building a RISC-V VM</h2>
+              <h2>Rust on a RISC-V VM</h2>
             </div>
             <div>
               <div class="img-box">
@@ -297,33 +301,52 @@
 
         <section>
           <div>
-            <h3>CKB-VM architecture</h3>
-            <p><a href="https://github.com/nervosnetwork/ckb-vm">https://github.com/nervosnetwork/ckb-vm</a></p>
+            <h3>Part 2 overview</h3>
+            <ul>
+              <li>What's in a VM
+              <li>Running Rust on a RISC-V VM
+              <li>Writing a runtime for CKB-VM
+            </ul>
           </div>
+
           <aside class="notes">
-            <p>open the repo</p>
-            <p>VM + Runtime + Client code</p>
-            <p>Run VM code</p>
+            Embarassing live coding.<br>
           </aside>
         </section>
 
         <section>
           <div>
-            <h3>The limits of Rust</h3>
-            <p>Where did CKB-VM have problems with Rust</p>
+            <h3>Ferris Fencing redux</h3>
           </div>
+
           <aside class="notes">
-            <p>Rust is awesome in most cases, but watch out for quirks</p>
+            Motivating example<br>
+            Simple two player game<br>
+            Each player is a RISC-V bot<br>
+            2D playing grid<br>
+            Cloud sandbox<br>
+            Rules don't matter<br>
+          </aside>
+        </section>
+
+        <section>
+          <div>
+            <h3>Demo</h3>
+          </div>
+        </section>
+
+        <section>
+          <div>
+            <h3>CKB-VM</h3>
+          </div>
+
+          <aside class="notes">
+            Anecdote: how I learned about CKB-VM
           </aside>
         </section>
 
 
-        <section>
-          <div>
-            <p>Part 3: </p>
-            <h2>Running Rust on CKB-VM</h2>
-          </div>
-        </section>
+
 
         <section>
           <div>
