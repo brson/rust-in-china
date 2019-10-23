@@ -17,11 +17,21 @@
     width: 50%;
 }
 
-#brson #s-ferris img {
+#brson div.big-img img {
     margin-top: 18rem;
 }
 
 #brson #part-1 div.img-box img {
     /*width: 80%;*/
     margin-right: 20rem;
+}
+
+#brson div.center-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#brson #s-riscv img {
+    width: 60%;
 }
