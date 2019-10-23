@@ -1,3 +1,4 @@
+
 #brson li em {
     text-transform: uppercase;
     color: red;
@@ -12,3 +13,15 @@
     font-size: 80%;
 }
 
+#brson #s-about-us div.img-box img {
+    width: 50%;
+}
+
+#brson #s-ferris img {
+    margin-top: 18rem;
+}
+
+#brson #part-1 div.img-box img {
+    /*width: 80%;*/
+    margin-right: 20rem;
+}
