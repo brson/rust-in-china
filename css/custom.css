@@ -2,6 +2,13 @@
     --text-shadow-color: black;
 }
 
+body#brson {
+    /*background-color: red;*/
+}
+
+#brson img {
+    background: none;
+}
 
 #brson li em {
     text-transform: uppercase;
