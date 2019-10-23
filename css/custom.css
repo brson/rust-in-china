@@ -2,8 +2,20 @@
     --text-shadow-color: black;
 }
 
-body#brson {
-    /*background-color: red;*/
+* {
+    --bg-color: #222;
+    --fg-color: #CCC;
+}
+
+#brson {
+    background-color: var(--bg-color);
+}
+
+#brson h1, #brson h2, #brson h3,
+#brson p,
+#brson a, #brson li {
+    color: var(--fg-color);
+    text-transform: none;
 }
 
 #brson img {
