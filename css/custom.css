@@ -1,10 +1,16 @@
 * {
+    box-sizing: border-box;
+}
+
+* {
     --text-shadow-color: black;
 }
 
 * {
     --bg-color: #222;
     --fg-color: #CCC;
+    --title-emph-color: #F74C00;
+    --main-emph-color: #F2946F;
 }
 
 #brson {
@@ -18,6 +24,26 @@
     text-transform: none;
 }
 
+#brson #s-intro sub {
+    color: var(--title-emph-color);
+    font-size: 70%;
+}
+
+#brson #s-intro a {
+    color: var(--title-emph-color);
+}
+
+#brson h2 {
+    /*color: var(--title-emph-color);*/
+}
+
+#brson li {
+}
+
+#brson p {
+    margin-bottom: 1rem;
+}
+
 #brson img {
     background: none;
 }
@@ -28,12 +54,20 @@
 }
 
 #brson #s-intro div.img-box img {
-    margin-top: 0rem;
     width: 100%;
 }
 
 #brson #s-intro div.img-box {
     font-size: 80%;
+}
+
+#brson #s-intro div.img-box {
+    margin-left: 10rem;
+    margin-right: 20rem;
+}
+
+#brson #s-intro p {
+    margin: 0;
 }
 
 #brson #s-about-us div.img-box img {
