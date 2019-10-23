@@ -11,6 +11,7 @@
     --fg-color: #CCC;
     --title-emph-color: #F74C00;
     --main-emph-color: #F2946F;
+    --ckb-color: #3CC68A;
 }
 
 #brson {
@@ -37,6 +38,20 @@
     /*color: var(--title-emph-color);*/
 }
 
+#brson h2 span.part {
+    font-size: 70%;
+    color: var(--ckb-color);
+}
+
+#brson h2 span.part-b {
+    font-size: 70%;
+    color: var(--title-emph-color);
+}
+
+#brson #s-thanks h2 {
+    color: var(--title-emph-color);
+}
+
 #brson li {
 }
 
@@ -46,6 +61,7 @@
 
 #brson img {
     background: none;
+    box-shadow: none;
 }
 
 #brson li em {
@@ -97,6 +113,9 @@
 #brson #s-vm h3 {
     margin-top: 10rem;
     margin-left: 10rem;
-    text-shadow: 2px 2px 2px var(--text-shadow-color);
+    /*color: var(--ckb-color);*/
+    color: var(--bg-color);
+    text-shadow: 2px 2px 2px var(--fg-color);
+    /*text-shadow: 2px 2px 2px var(--text-shadow-color);*/
     text-align: left;
 }
