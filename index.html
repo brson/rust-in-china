@@ -371,6 +371,8 @@
 
             Patched ckb-vm<br>
 
+            Nightly toolchain<br>
+
             Stall<br>
           </aside>
         </section>
@@ -453,7 +455,9 @@
 
             Tour the load_binary and step functions<br>
 
-            TODO: command<br>
+            ferris_fencing/src/demo_rt/main.rs<br>
+
+            cargo run -p demo_rt -- README.md<br>
           </aside>
         </section>
 
@@ -464,6 +468,12 @@
               <p>Naive <code>main</code></p>
             </div>
           </div>
+
+          <aside class="notes">
+            cargo build -p demo_exe --target=riscv32imac-unknown-none-elf<br>
+
+            Target is installed (show in rustup)<br>
+          </aside>
         </section>
 
         <section>
@@ -482,20 +492,9 @@
               <p><code>[panic_handler]</code></p>
             </div>
           </div>
-        </section>
-
-        <section>
-          <div class="center-header">
-            <div>
-              <h3>Coding</h3>
-              <p>Naive <code>start</code></p>
-            </div>
-          </div>
 
           <aside class="notes">
-            How do I know about start?<br>
-
-            TODO: how does this go wrong?
+            Lang items<br>
           </aside>
         </section>
 
@@ -509,6 +508,37 @@
 
           <aside class="notes">
             How do I know about start?<br>
+
+            ls -lh target/riscv32imac-unknown-none-elf/debug/<br>
+
+            Run with demo_rt<br>
+
+            cargo run -p demo_rt -- target/riscv32imac-unknown-none-elf/debug/demo-exe<br>
+
+            Instruction 0<br>
+
+            ckb-vm/src/decoder.rs<br>
+
+            ~/riscv-gcc/bin/riscv32-unknown-elf-objdump -d target/riscv32imac-unknown-none-elf/debug/demo-exe<br>
+          </aside>
+        </section>
+
+        <section>
+          <div class="center-header">
+            <div>
+              <h3>Coding</h3>
+              <p>Correct <code>start</code></p>
+            </div>
+          </div>
+
+          <aside class="notes">
+            _start<br>
+
+            Build - dissassemble - run - explain<br>
+
+            How do I know about start? Tried it in C?<br>
+
+            RUST_LOG=debug cargo run -p demo_rt -- target/riscv32imac-unknown-none-elf/debug/demo-exe<br>
           </aside>
         </section>
 
@@ -549,31 +579,11 @@
         <section>
           <div class="center-header">
             <div>
-              <h3>Coding</h3>
-              <p>Verifying execution</p>
+              <h3>WTF is <code>_start?</code></h3>
             </div>
           </div>
 
           <aside class="notes">
-            Log instruction dispatch<br>
-            
-            TODO<br>
-          </aside>
-        </section>
-
-
-        <section>
-          <div class="center-header">
-            <div>
-              <h3>Coding</h3>
-              <p>Verifying execution</p>
-            </div>
-          </div>
-
-          <aside class="notes">
-            Log instruction dispatch<br>
-            
-            TODO<br>
           </aside>
         </section>
 
@@ -586,6 +596,7 @@
           </div>
 
           <aside class="notes">
+            ckb-vm/src/instructions/execute.rs<br>
             ckb-vm/src/machine/mod.rs grep ecall<br>
 
             Note syscall number, registers<br>
