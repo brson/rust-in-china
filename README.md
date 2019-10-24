@@ -35,6 +35,7 @@ npm start
 
 - TODO: fill me in
 - Ferris Fencing graphics are made by [Echo](http://echoqi.net/).
+- https://ccsearch.creativecommons.org/photos/9c3407f2-85d4-4b38-95d0-57f9f93ca42b
 
 
 ## License

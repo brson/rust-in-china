@@ -148,6 +148,16 @@
     text-align: right;
 }
 
+#brson #s-vm2 h3 {
+    margin-top: 10rem;
+    margin-right: 10rem;
+    /*color: var(--ckb-color);*/
+    color: var(--bg-color);
+    text-shadow: 2px 2px 2px var(--fg-color);
+    /*text-shadow: 2px 2px 2px var(--text-shadow-color);*/
+    text-align: right;
+}
+
 #brson div.ckb-title h3 {
     color: var(--ckb-color);
 }
