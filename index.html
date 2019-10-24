@@ -315,34 +315,80 @@
               <div class="img-box">
                 <img src="images/build-a-risc-v-vm.jpg">
               </div>
-              <p style="font-size: 0.9rem;font-style: italic;"><a href="https://www.flickr.com/photos/88488351@N00/17148263990">"2015 Lego Club"</a><span>by <a href="https://www.flickr.com/photos/88488351@N00">Franklin Park Library</a></span> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY 2.0</a><a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;opacity: .7;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /></a>
-              </p>
             </div>
           </div>
+
+          <aside class="notes">
+            My experience<br>
+
+            Rust to RISC-V<br>
+
+            On CKB-VM<br>
+
+            Bare-metal<br>
+          </aside>
         </section>
 
         <section>
-          <div class="ferris-title">
+          <div>
             <h3>Part 2 Overview</h3>
             <ul>
-              <li>What's in a VM
-              <li>Running Rust on a RISC-V VM
-              <li>Writing a runtime for CKB-VM
+              <li>Live-coding <code>main</code> on bare-metal RISC-V
+              <li>Hosting an exe on CKB-VM
+              <li>CKB-VM exe loading and instruction dispatch
+              <li>RISC-V / CKB-VM syscalls
             </ul>
           </div>
 
           <aside class="notes">
             Embarassing live coding.<br>
+
+            Hosting<br>
+
+            Exe loading<br>
+
+            Instruction dispatch<br>
+
+            Syscalls (assembly / runtime)<br>
           </aside>
         </section>
 
-        <section>
-          <div class="ferris-title">
-            <h3>Ferris Fencing redux</h3>
+        <section id="s-source">
+          <div>
+            <h3>Source code</h3>
+            <ul>
+              <p><a href="https://github.com/brson/ferris-fencing">https://github.com/brson/ferris-fencing</a></p>
+              <p><a href="https://github.com/nervosnetwork/ckb-vm">https://github.com/nervosnetwork/ckb-vm</a></p>
+            </ul>
+          </div>
+
+          <aside class="notes">
+            Code I use is in the ferris-fencing repo<br>
+
+            Fork ckb-vm<br>
+
+            Stall<br>
+          </aside>
+        </section>
+
+        <section id="s-redux">
+          <div class="two-box ferris-title">
+            <div class="center-header">
+              <div>
+                <h3>Ferris<br>Fencing<br>redux</h3>
+                <p><a href="https://www.ferrisfencing.org">ferrisfencing.org</a></p>
+              </div>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/ferris-fencing-blue.svg">
+              </div>
+            </div>
           </div>
 
           <aside class="notes">
             Motivating example<br>
+            Source code available<br>
             Simple two player game<br>
             Each player is a RISC-V bot<br>
             2D playing grid<br>
@@ -352,20 +398,20 @@
         </section>
 
         <section>
-          <div class="ferris-title">
-            <h3>Demo</h3>
-          </div>
-        </section>
-
-        <section>
-          <div class="ckb-title">
-            <h3>CKB-VM</h3>
+          <div class="center-header">
+            <h3>Quick demo</h3>
           </div>
 
           <aside class="notes">
-            Anecdote: how I learned about CKB-VM
+            TODO: command-line
           </aside>
         </section>
+
+        <section>
+        </section>
+
+
+        <!-- ----- -->
 
 
         <section id="s-nervos">
