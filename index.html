@@ -162,11 +162,6 @@
             </ul>
           </div>
           <aside class="notes">
-            e.g. Java JVM<br>
-
-            e.g. QEMU<br>
-
-            e.g. WASM<br>
           </aside>
         </section>
 
@@ -212,16 +207,12 @@
             <h3>Blockchain VM Use Cases</h3>
             <ul>
               <li class="fragment fade-left">Crypto algorithm as a contract
-              <li class="fragment fade-left">Existing blockchain VMs
               <li class="fragment fade-left">Higher level languages
+              <li class="fragment fade-left">Existing blockchain VMs
               <li class="fragment fade-left">WebAssembly
             </ul>
           </div>
           <aside class="notes">
-            <p>1) Compile secp256k1 via GCC to RISC-V, then deploy it on CKB, support MimbleWimble via a contract</p>
-            <p>2) The current dapps writtern in Solidity, compile an existing blockchain VM(Bitcoin Script, EVM, …) to RISC-V, then deploy it on CKB</p>
-            <p>3) Compile a JS implementation to RISC-V, then deploy to CKB. </p>
-            <p>4) WASM => RISC-V transpiler. </p>
           </aside>
         </section>
 
@@ -246,8 +237,6 @@
             <p>An open & frozen ISA</p>
           </div>
           <aside class="notes">
-            <p>"instruction set architecture"</p>
-            </p>
           </aside>
         </section>
 
@@ -256,9 +245,6 @@
             <p>Flexible & Extensible</p>
           </div>
           <aside class="notes">
-            <p>Simple, only a few instructions.</p>
-            <p>“Base” ISAs: RV32I, RV32E, RV64I, RV128I.</p>
-            <p>CKB: RV32IMAC (Integer + Multiplication/division + Atomic + Compressed instructions</p>
           </aside>
         </section>
 
@@ -281,7 +267,6 @@
             </div>
           </div>
           <aside class="notes">
-            <p>If standard solutions don't work, add your extentions.</p>
           </aside>
         </section>
 
