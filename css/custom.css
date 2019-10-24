@@ -114,6 +114,10 @@
     height: 100%;
 }
 
+#brson div.center-header > div {
+    margin-top: 0;
+}
+
 #brson #s-riscv img {
     width: 60%;
 }

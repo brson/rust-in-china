@@ -325,6 +325,8 @@
 
             On CKB-VM<br>
 
+            Credit Xiao TODO at Nervos<br>
+
             Bare-metal<br>
           </aside>
         </section>
@@ -365,7 +367,7 @@
           <aside class="notes">
             Code I use is in the ferris-fencing repo<br>
 
-            Fork ckb-vm<br>
+            Patched ckb-vm<br>
 
             Stall<br>
           </aside>
@@ -408,6 +410,242 @@
         </section>
 
         <section>
+          <div class="center-header">
+            <div>
+              <h3>Live-coding</h3>
+              <p>
+                Watch this fool<br>
+                learn how to build Rust code<br>
+                for RISC-V<br>
+                and run it on CKB-VM
+              </p>
+            </div>
+          </div>
+
+          <aside class="notes">
+            Alternate between slides and code<br>
+
+            Slides reminders<br>
+
+            Illustrative of how to bring up the Rust runtime
+            for any architecture<br>
+          </aside>
+        </section>
+
+        <section>
+          <div class="center-header">
+            <div>
+              <h3>Coding</h3>
+              <p>Hosting RISC-V<br>code on CKB-VM</p>
+            </div>
+          </div>
+
+          <aside class="notes">
+            Showing the test harness<br>
+
+            Learned by reading CKB-VM source<br>
+
+            demo_rt<br>
+
+            Explain what each does<br>
+
+            Tour the load_binary and step functions<br>
+
+            TODO: command<br>
+          </aside>
+        </section>
+
+        <section>
+          <div class="center-header">
+            <div>
+              <h3>Coding</h3>
+              <p>Naive <code>main</code></p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="center-header">
+            <div>
+              <h3>Coding</h3>
+              <p><code>#![no_std]</code></p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="center-header">
+            <div>
+              <h3>Coding</h3>
+              <p><code>[panic_handler]</code></p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="center-header">
+            <div>
+              <h3>Coding</h3>
+              <p>Naive <code>start</code></p>
+            </div>
+          </div>
+
+          <aside class="notes">
+            How do I know about start?<br>
+
+            TODO: how does this go wrong?
+          </aside>
+        </section>
+
+        <section>
+          <div class="center-header">
+            <div>
+              <h3>Coding</h3>
+              <p>Naive <code>start</code></p>
+            </div>
+          </div>
+
+          <aside class="notes">
+            How do I know about start?<br>
+          </aside>
+        </section>
+
+
+        <section>
+          <div class="center-header">
+            <div>
+              <h3>Coding</h3>
+              <p>Running the bin</p>
+            </div>
+          </div>
+
+          <aside class="notes">
+            TODO: objdump?<br>
+
+            TODO: what happens when run?
+          </aside>
+        </section>
+
+
+        <section>
+          <div class="center-header">
+            <div>
+              <h3>Coding</h3>
+              <p>Working <code>start</code></p>
+            </div>
+          </div>
+
+          <aside class="notes">
+            How do I know about _start?<br>
+
+            Something appened<br>
+
+            Ignore illegal instruction error for now<br>
+          </aside>
+        </section>
+
+        <section>
+          <div class="center-header">
+            <div>
+              <h3>Coding</h3>
+              <p>Verifying execution</p>
+            </div>
+          </div>
+
+          <aside class="notes">
+            Log instruction dispatch<br>
+            
+            TODO<br>
+          </aside>
+        </section>
+
+
+        <section>
+          <div class="center-header">
+            <div>
+              <h3>Coding</h3>
+              <p>Verifying execution</p>
+            </div>
+          </div>
+
+          <aside class="notes">
+            Log instruction dispatch<br>
+            
+            TODO<br>
+          </aside>
+        </section>
+
+        <section>
+          <div class="center-header">
+            <div>
+              <h3>Coding</h3>
+              <p>What's the error?</p>
+            </div>
+          </div>
+
+          <aside class="notes">
+            ckb-vm/src/machine/mod.rs grep ecall<br>
+
+            Note syscall number, registers<br>
+
+            Conventions?<br>
+
+            End of live-coding - examples from ferris fencing<br>
+          </aside>
+        </section>
+
+        <section>
+          <div class="center-header">
+            <div>
+              <h3>Syscalls in RISC-V and CKB-VM</h3>
+            </div>
+          </div>
+
+          <aside class="notes">
+            ferris-fencing/src/ckb_vm_syscall/ecall32.s<br>
+            ferris-fencing/src/ckb_vm_syscall/lib.rs<br>
+          </aside>
+        </section>
+
+        <section>
+          <div class="center-header">
+            <div>
+              <h3>ckb_vm_glue</h3>
+            </div>
+          </div>
+
+          <aside class="notes">
+            ferris-fencing/src/ckb_vm_glue<br>
+          </aside>
+        </section>
+
+        <section>
+          <div class="center-header">
+            <div>
+              <h3>example_bot</h3>
+            </div>
+          </div>
+
+          <aside class="notes">
+            ferris-fencing/src/example_bot<br>
+          </aside>
+        </section>
+
+        <section id="s-further">
+          <div>
+            <h3>Further exploring</h3>
+            <ul>
+              <p><a href="https://github.com/brson/ferris-fencing">https://github.com/brson/ferris-fencing</a></p>
+              <p><a href="https://github.com/nervosnetwork/ckb-vm">https://github.com/nervosnetwork/ckb-vm</a></p>
+              <p><a href="https://github.com/nervosnetwork/ckb">https://github.com/nervosnetwork/ckb</a></p>
+            </ul>
+          </div>
+
+          <div>
+            All I can cover here<br>
+
+            Read CKB source<br>
+          </div>
         </section>
 
 
