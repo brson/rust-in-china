@@ -1,5 +1,11 @@
+* {
+    --column-size: 10%;
+    --bg-color: #222;
+}
+
 html {
     height: 100%;
+    background-color: var(--bg-color);
 }
 
 body {
@@ -8,7 +14,7 @@ body {
 
 #frame {
     display: grid;
-    grid-template-rows: 15% auto;
+    grid-template-rows: 20% 79%;
     height: 100%;
 }
 
