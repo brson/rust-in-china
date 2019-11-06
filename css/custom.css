@@ -198,3 +198,8 @@
 	height: auto;
 	margin: 2rem;
 }
+
+#brson div.img-title > img {
+    width: 100%;
+    height: auto;
+}
