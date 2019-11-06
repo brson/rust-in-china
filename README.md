@@ -46,7 +46,7 @@ What: a distributed MySQL-compatible database.
 
 ## Potential image credits
 
-- TOOD
+- TODO
 
 
 ## License
