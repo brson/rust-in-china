@@ -181,22 +181,31 @@
     color: var(--title-emph-color);
 }
 
+#brson section.logos {
+	background: linear-gradient(#333, #BBB);
+}
+
 #brson div.img-board {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: space-between;
     justify-content: center;
     height: 100%;
-	background: linear-gradient(#333, #BBB);
+	/*background: linear-gradient(#333, #BBB);*/
 }
 
 #brson div.img-board > img {
     max-height: 200px;
-	max-width: 500px;
+	/*max-width: 400px;*/
 	width: 100%;
 	height: auto;
 	margin: 2rem;
+}
+
+#brson div.img-board > img {
+	width: auto;
+	height: 200px;
 }
 
 #brson div.img-title > img {
