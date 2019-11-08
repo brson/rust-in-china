@@ -7,11 +7,32 @@
 }
 
 * {
+    --china-red: #DE2910;
+    --china-red: #BE132D;
+    --china-yellow: #FFDE00;
     --bg-color: #202024;
     --fg-color: #C0C0D0;
     --title-emph-color: #F74C00;
     --main-emph-color: #F2946F;
     --ckb-color: #3CC68A;
+    --main-emph-color: var(--china-red);
+    --ckb-color: var(--china-yellow);
+}
+
+#brson div.title,
+#brson div.title h1,
+#brson div.title a
+{
+    /*background-color: var(--china-red);
+    color: var(--china-yellow);*/
+}
+
+#brson div.title h1 {
+    color: var(--china-red);
+}
+
+#brson u {
+    color: var(--china-yellow);
 }
 
 #brson {
@@ -26,7 +47,7 @@
 }
 
 #brson a {
-    color: var(--main-emph-color);
+    color: var(--china-yellow);
 }
 
 #brson #s-intro sub {
