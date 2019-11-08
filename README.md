@@ -44,6 +44,13 @@ What: a distributed MySQL-compatible database.
 - [grpc-rs](https://github.com/tikv/grpc-rs) - gRPC reference bindings.
 
 
+### Zhihu
+
+What: Quara-like Q&A engine.
+
+- [Rucene](https://github.com/zhihu/rucene) - Lucene in Rust.
+
+
 ## Rust in China onboarding links
 
 - https://zhuanlan.zhihu.com/p/26944087

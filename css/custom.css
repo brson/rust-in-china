@@ -186,7 +186,7 @@
 }
 
 #brson section.logos {
-	background: linear-gradient(#333, #BBB);
+	background: linear-gradient(#222, #888);
 }
 
 #brson div.img-board {
@@ -217,4 +217,8 @@
 #brson div.img-title > img {
     width: 100%;
     height: auto;
+}
+
+#brson div.img-title {
+	background: linear-gradient(#222, #888);
 }
