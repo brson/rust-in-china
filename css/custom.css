@@ -20,9 +20,13 @@
 
 #brson h1, #brson h2, #brson h3,
 #brson p,
-#brson a, #brson li {
+#brson li {
     color: var(--fg-color);
     text-transform: none;
+}
+
+#brson a {
+    color: var(--main-emph-color);
 }
 
 #brson #s-intro sub {
@@ -196,11 +200,13 @@
 }
 
 #brson div.img-board > img {
-    max-height: 200px;
+    max-height: 180px;
 	/*max-width: 400px;*/
 	width: 100%;
 	height: auto;
 	margin: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 #brson div.img-board > img {

@@ -44,9 +44,12 @@ What: a distributed MySQL-compatible database.
 - [grpc-rs](https://github.com/tikv/grpc-rs) - gRPC reference bindings.
 
 
-## Potential image credits
+## Rust in China onboarding links
 
-- TODO
+- https://zhuanlan.zhihu.com/p/26944087
+- https://lug.ustc.edu.cn/wiki/mirrors/help/rust-static
+- https://mirror.tuna.tsinghua.edu.cn/help/rustup/
+- https://lug.ustc.edu.cn/wiki/mirrors/help/rust-crates
 
 
 ## License
