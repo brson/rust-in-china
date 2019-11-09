@@ -21,9 +21,9 @@ Reveal.addEventListener( 'slidechanged', function( event ) {
 		    yValueFormatString: "##0.0\" billion\"",
 		    indexLabel: "{label} {y}",
 		    dataPoints: [
-			    {y: 1.4, label: "China", color: "red"},
+			    {y: 1.4, label: "China", color: "#DE2910"},
 			    /*{y: 7.7, label: "World", color: "blue"},*/
-			    {y: 0.7, label: "Europe", color: "blue"}
+			    {y: 0.7, label: "Europe", color: "#1029DE"}
 		    ]
 	    }]
     });
